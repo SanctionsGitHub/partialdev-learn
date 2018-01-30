@@ -1,39 +1,9 @@
-@import "https://fonts.googleapis.com/css?family=Roboto";
-
-@font-face {
-    font-family: 'Acherus Grotesque';
-    src: url('acherus_grotesque_-_regular-webfont.woff2') format('woff2'),
-         url('acherus_grotesque_-_regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Sofia Pro';
-    src: url('sofiapro-light-webfont.woff2') format('woff2'),
-         url('sofiapro-light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face {
     font-family: 'Museo Sans';
     src: url('MuseoSans_500-webfont.woff2') format('woff2'),
          url('MuseoSans_500-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'Questa Sans';
-    src: url('2-Questa_Sans_Regular-webfont.woff2') format('woff2'),
-         url('2-Questa_Sans_Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 
 @font-face {
@@ -42,9 +12,7 @@
          url('publicasans-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 
 body {
