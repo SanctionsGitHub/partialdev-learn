@@ -1,8 +1,14 @@
+@import "https://fonts.googleapis.com/css?family=Roboto:700";
+@import "https://fonts.googleapis.com/css?family=Rubik";
+
 body {
-font-family: system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+font-family: 'Rubik', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Roboto', sans-serif;
 }
 code {
-    padding: .2px /*.2rem .5rem*/;
+    padding: .5px /*.2rem .5rem*/;
     margin: 0 .2rem;
     font-size: 90%;
     white-space: nowrap;
