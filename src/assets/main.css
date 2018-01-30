@@ -1,8 +1,16 @@
 @import "https://fonts.googleapis.com/css?family=Roboto";
-@import "https://fonts.googleapis.com/css?family=PT+Serif+Caption";
+
+@font-face {
+    font-family: 'Acherus Grotesque';
+    src: url('acherus_grotesque_-_regular-webfont.woff2') format('woff2'),
+         url('acherus_grotesque_-_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
-font-family: 'PT Serif Caption', serif;
+font-family: 'Acherus Grotesque', sans-serif;
 }
 h1,h2,h3,h4,h5,h6,.side-menu-items li,.btn {
     font-family: 'Roboto', sans-serif;
