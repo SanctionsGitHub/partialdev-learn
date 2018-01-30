@@ -2,7 +2,7 @@ body {
 font-family: system, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 code {
-    padding: .2rem .5rem;
+    padding: .2px /*.2rem .5rem*/;
     margin: 0 .2rem;
     font-size: 90%;
     white-space: nowrap;
@@ -13,7 +13,7 @@ code {
 
 pre > code {
     display: block;
-    padding: .2px /*1rem 1.5rem*/;
+    padding: 1rem 1.5rem;
     white-space: pre; 
 }
 .btn {   
