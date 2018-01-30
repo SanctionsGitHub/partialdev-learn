@@ -218,6 +218,7 @@ body {
   background: none;
   color: white;
   padding: 1rem;
+  z-index: 500;
 }
 #nav-btn:before {
   font-family: 'FontAwesome';
