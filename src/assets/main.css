@@ -1,10 +1,10 @@
 @import "https://fonts.googleapis.com/css?family=Roboto:700";
-@import "https://fonts.googleapis.com/css?family=PT+Serif";
+@import "https://fonts.googleapis.com/css?family=Noto+Serif";
 
 body {
-font-family: 'PT Serif', sans-serif;
+font-family: 'Noto Serif', sans-serif;
 }
-h1,h2,h3,h4,h5,h6 {
+h1,h2,h3,h4,h5,h6,.side-menu-items li {
     font-family: 'Roboto', sans-serif;
 }
 code {
