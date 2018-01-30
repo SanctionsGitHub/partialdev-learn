@@ -408,13 +408,13 @@ body {
   bottom: 0;
   height: 2px;
   width: 0;
-  background: #325ADD;
+  background: /*#325ADD*/#000;
   transition: width .5s ease;
 }
 
 .sliding-u-l-r-l:hover:before {
   width: 100%;
-  background: #325ADD;
+  background: /*#325ADD*/#000;
   transition: width .5s ease;
 }
 
