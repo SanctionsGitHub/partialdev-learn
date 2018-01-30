@@ -220,13 +220,13 @@ body {
   padding: 1rem;
 }
 #nav-btn:before {
-  font-family: FontAwesome;
+  font-family: 'FontAwesome';
   content: "\f0c9";
   display: inline-block;
 }
 
 #nav-btn.close:before {
-  font-family: FontAwesome;
+  font-family: 'FontAwesome';
   content: "\f00d";
   display: inline-block;
 }
