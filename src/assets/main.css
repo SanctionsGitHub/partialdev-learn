@@ -345,13 +345,6 @@ body {
   color: #161d25;
   font-weight: 700;
 }
-.main-col .content p {
-  margin-bottom: 1.4em;
-  max-width: 60rem;
-  font-size: 1rem;
-  line-height: 1.55;
-  color: #637381;
-}
 
 .sliding-u-l-r-l {
   display: block;
