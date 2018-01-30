@@ -221,13 +221,13 @@ body {
   z-index: 500;
 }
 #nav-btn:before {
-  font-family: Font Awesome\ 5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: "\f101";
   display: inline-block;
 }
 
 #nav-btn.close:before {
-  font-family: Font Awesome\ 5 Free;
+  font-family: 'Font Awesome\ 5 Free';
   content: "\f00d";
   display: inline-block;
 }
