@@ -98,50 +98,9 @@ pre > code {
     background-color: #1EAEDB;
     border-color: #1EAEDB;
 }
-
-/****/
 * {
   box-sizing: border-box;
 }
-
-/*button.primary {
-  border-radius: 3px;
-  border: 1px solid #325ADD;
-  padding: .5rem 1rem;
-  margin: 0px;
-  cursor: pointer;
-  background-color: #325ADD;
-  color: white;
-  font-weight: 300;
-  box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.2);
-  text-shadow: none;
-  font-size: 1.15rem;
-  margin-right: 1rem;
-  margin-bottom: 1rem;
-}
-button.primary:hover {
-  box-shadow: none;
-  background-color: #234cd3;
-}
-
-button.secondary {
-  margin-bottom: 1rem;
-  border-radius: 3px;
-  border: 1px solid #325ADD;
-  padding: .5rem 1rem;
-  margin: 0px;
-  cursor: pointer;
-  background-color: white;
-  color: #325ADD;
-  font-weight: 300;
-  box-shadow: 0 0.6rem 2rem rgba(0, 0, 0, 0.2);
-  text-shadow: none;
-  font-size: 1.15rem;
-}
-button.secondary:hover {
-  box-shadow: none;
-  background-color: #f2f2f2;
-}*/
 
 h2 {
   max-width: 60rem;
@@ -408,13 +367,13 @@ body {
   bottom: 0;
   height: 2px;
   width: 0;
-  background: /*#325ADD*/#000;
+  background: #325ADD;
   transition: width .5s ease;
 }
 
 .sliding-u-l-r-l:hover:before {
   width: 100%;
-  background: /*#325ADD*/#000;
+  background: #325ADD;
   transition: width .5s ease;
 }
 
