@@ -5,7 +5,7 @@ layout: docs
 
 # Introduction
 
-- [Installation](Installation)
+- [Installation](/docs/installation)
 
 Included:
 - EJS
