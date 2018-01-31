@@ -6,12 +6,21 @@ http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascr
  * @author Lea Verou
  */
 
+@font-face {
+    font-family: 'Monoxil';
+    src: url('Monoxil_Regular-webfont.woff2') format('woff2'),
+         url('Monoxil_Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
 	background: none;
 	text-shadow: 0 1px white;
-	font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: 'Monoxil', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
