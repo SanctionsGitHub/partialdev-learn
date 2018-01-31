@@ -23,11 +23,10 @@ section {
 
 section > .content {
     display: table-cell;
-    /*vertical-align: middle;
-    text-align: middle;
-    align: middle;*/
     margin: auto;
     padding: 10px;
+    display: block;
+    width: 40%;
 }
 
 section > .content > .btn {
