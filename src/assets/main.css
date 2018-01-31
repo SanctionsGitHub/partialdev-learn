@@ -18,7 +18,7 @@ section {
   margin: 0;
   background-color: #373B44;
   color: #fff;
-  height: 100vh;
+  height: 90vh;
 }
 
 section:nth-of-type(2n) {
