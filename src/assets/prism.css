@@ -19,6 +19,7 @@ pre {
 	background: none;
 	text-shadow: 0 1px white;
 	font-family: 'Fira Sans', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-size: 95%;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
