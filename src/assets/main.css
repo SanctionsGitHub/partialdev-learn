@@ -21,6 +21,13 @@ section {
   height: 100vh;
 }
 
+section > .content {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: middle;
+    align: middle;
+}
+
 body {
 font-family: 'Publica Sans', sans-serif;
 margin: 0;
