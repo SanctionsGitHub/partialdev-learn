@@ -1,6 +1,6 @@
 ---
 title: Installation
-layout: doc
+layout: docs
 ---
 
 # Installation
