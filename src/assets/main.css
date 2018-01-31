@@ -23,9 +23,12 @@ section {
 
 section > .content {
     display: table-cell;
-    vertical-align: middle;
+    /*vertical-align: middle;
     text-align: middle;
-    align: middle;
+    align: middle;*/
+    margin: auto;
+    width: 70%;
+    padding: 10px;
 }
 
 section > .content > .btn {
