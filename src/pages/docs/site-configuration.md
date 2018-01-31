@@ -29,4 +29,4 @@ You can use whatever variables you would like to.
 
 ## Accessing variables
 
-See [Variables](Variables) for more information on this.
+See [Variables](/docs/variables) for more information on this.
