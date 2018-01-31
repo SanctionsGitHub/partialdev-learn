@@ -1,3 +1,8 @@
+---
+title: Front Matter
+layout: docs
+---
+
 # Front Matter
 
 YAML Front Matter is included with Vanillify, which you can use for many things. One of the main reasons that we included front matter in Vanillify is so you can have multiple layouts, and specify which one you want to use.
