@@ -28,6 +28,10 @@ section > .content {
     align: middle;
 }
 
+section > .content > .btn {
+    color: #fff;
+}
+
 body {
 font-family: 'Publica Sans', sans-serif;
 margin: 0;
