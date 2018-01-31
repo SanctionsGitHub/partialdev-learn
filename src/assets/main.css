@@ -14,7 +14,25 @@
     font-style: normal;
 }
 
-.landing{/*display: flex;justify-content: center;flex-direction: column;*/height:90vh;background-color:#325ADD;}
+.landing{/*display: flex;justify-content: center;flex-direction: column;*//*height:90vh;background-color:#325ADD;}*/
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #373B44;
+  height: 100vh;
+}
+section:nth-of-type(2n) {
+  background-color: #FE4B74;
+}
+
+section > .content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
 body {
 font-family: 'Publica Sans', sans-serif;
 }
