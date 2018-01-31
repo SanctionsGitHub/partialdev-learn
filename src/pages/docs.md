@@ -15,7 +15,7 @@ Included:
 Feel free to file a pull request to add more dependencies!
 
 ## Folder structure
-
+<?prettify?>
 ````
 public/
 src/
