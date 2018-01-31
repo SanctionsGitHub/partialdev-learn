@@ -14,7 +14,7 @@
     font-style: normal;
 }
 
-.landing{display: flex;justify-content: center;flex-direction: column;height: 100vh;}
+.landing{/*display: flex;justify-content: center;flex-direction: column;*/height:90vh;background-color:#325ADD;}
 body {
 font-family: 'Publica Sans', sans-serif;
 }
