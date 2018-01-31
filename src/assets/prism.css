@@ -5,23 +5,12 @@ http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascr
  * Based on dabblet (http://dabblet.com)
  * @author Lea Verou
  */
-
-@font-face {
-    font-family: 'Monoxil';
-    src: url('Monoxil_Regular-webfont.woff2') format('woff2'),
-         url('Monoxil_Regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 @font-face {
     font-family: 'Fira Mono';
     src: url('firamono-regular-webfont.woff2') format('woff2'),
          url('firamono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 code,
