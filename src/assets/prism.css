@@ -15,7 +15,7 @@ http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascr
 
 }
 
-code[class*="language-"],
+/*code[class*="language-"],
 pre[class*="language-"] {
 	color: black;
 	background: none;
@@ -57,7 +57,6 @@ code[class*="language-"]::selection, code[class*="language-"] ::selection {
 	}
 }
 
-/* Code blocks */
 pre[class*="language-"] {
 	padding: 1em;
 	margin: .5em 0;
@@ -69,8 +68,69 @@ pre[class*="language-"] {
 	background: #f5f2f0;
 }
 
-/* Inline code */
 :not(pre) > code[class*="language-"] {
+	padding: .1em;
+	border-radius: .3em;
+	white-space: normal;
+}*/
+
+/*non-classes*/
+code,
+pre {
+	color: black;
+	background: none;
+	text-shadow: 0 1px white;
+	font-family: 'Monoxil', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	text-align: left;
+	white-space: pre;
+	word-spacing: normal;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 1.5;
+
+	-moz-tab-size: 4;
+	-o-tab-size: 4;
+	tab-size: 4;
+
+	-webkit-hyphens: none;
+	-moz-hyphens: none;
+	-ms-hyphens: none;
+	hyphens: none;
+}
+
+pre::-moz-selection, pre ::-moz-selection,
+code::-moz-selection, code ::-moz-selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+pre::selection, pre ::selection,
+code::selection, code ::selection {
+	text-shadow: none;
+	background: #b3d4fc;
+}
+
+@media print {
+	code[class*="language-"],
+	pre[class*="language-"] {
+		text-shadow: none;
+	}
+}
+
+/* Code blocks */
+pre {
+	padding: 1em;
+	margin: .5em 0;
+	overflow: auto;
+}
+
+:not(pre) > code,
+pre {
+	background: #f5f2f0;
+}
+
+/* Inline code */
+:not(pre) > code {
 	padding: .1em;
 	border-radius: .3em;
 	white-space: normal;
