@@ -15,12 +15,21 @@ http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascr
 
 }
 
+@font-face {
+    font-family: 'Fira Mono';
+    src: url('firamono-regular-webfont.woff2') format('woff2'),
+         url('firamono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 code,
 pre {
 	color: black;
 	background: none;
 	text-shadow: 0 1px white;
-	font-family: 'Monoxil', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+	font-family: 'Fira Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
