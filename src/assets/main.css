@@ -43,6 +43,9 @@ section > .content {
     margin: 15px;
 }
 
+@media (max-width: 400px) {
+    img{width:50%;height:50%;}
+}
 body {
 font-family: 'Publica Sans', sans-serif;
 margin: 0;
