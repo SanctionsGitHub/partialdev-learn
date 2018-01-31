@@ -22,14 +22,16 @@ section {
 }
 
 section > .content {
-    display: table-cell;
+    /*display: table-cell;*/
+    vertical-align: center;
+    text-align: center;
     margin: auto;
     padding: 10px;
     display: block;
     width: 40%;
 }
 
-section > .content > .btn {
+section > .content.btn {
     color: #fff;
 }
 
