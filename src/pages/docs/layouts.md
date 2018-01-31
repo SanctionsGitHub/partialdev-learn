@@ -6,7 +6,7 @@ layout: docs
 # Layouts
 
 You can have multiple layouts in your Vanillify site. The default layout included with Vanillify is below:
-````ejs
+````html
 <!DOCTYPE html>
 <html>
 <head>
