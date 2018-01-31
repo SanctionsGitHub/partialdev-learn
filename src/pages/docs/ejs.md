@@ -1,3 +1,8 @@
+---
+title: EJS
+layout: docs
+---
+
 # EJS
 
 Vanillify uses EJS as its templating engine (like Jekyll uses Liquid).
