@@ -19,7 +19,6 @@ pre {
 	background: none;
 	text-shadow: 0 1px white;
 	font-family: 'Fira Mono', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
-	font-size: 90%;
 	text-align: left;
 	white-space: pre;
 	word-spacing: normal;
@@ -28,7 +27,6 @@ pre {
 	line-height: 1.5;
 	padding: .2rem .5rem;
     	margin: 0 .2rem;
-	border: 1px solid #E1E1E1;
 
 	-moz-tab-size: 4;
 	-o-tab-size: 4;
@@ -44,13 +42,13 @@ pre {
 pre::-moz-selection, pre ::-moz-selection,
 code::-moz-selection, code ::-moz-selection {
 	text-shadow: none;
-	background: /*#b3d4fc*/#F1F1F1;
+	background: #b3d4fc;
 }
 
 pre::selection, pre ::selection,
 code::selection, code ::selection {
 	text-shadow: none;
-	background: /*#b3d4fc*/#F1F1F1;
+	background: #b3d4fc;
 }
 
 @media print {
@@ -69,7 +67,7 @@ pre {
 
 :not(pre) > code,
 pre {
-	background: /*#f5f2f0*/#F1F1F1;
+	background: #f5f2f0;
 }
 
 /* Inline code */
