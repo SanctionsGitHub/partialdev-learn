@@ -7,29 +7,22 @@ layout: docs
 
 - [Installation](/docs/installation)
 
-Included:
-- EJS
-- YAML Front Matter
-- Marked
-
-Feel free to file a pull request to add more dependencies!
+Luxaura.js is a simple static site generator.
 
 ## Folder structure
 
 ````
-public/
-src/
-   assets/
-   pages/
-   partials/
-   layouts/
+site/
+static/
+content/
+partials/
+views/
 site.config.js
 ````
 
-- `public/`: The folder the generated files go in.
-- `src/`: Where your site is held.
-   - `assets/`: Where your CSS, images, etc. are held.
-   - `pages/`: Where your site pages go.
-   - `partials/`: Where things like your document head, navigation bar, etc. go.
-   - `layouts/`: Where your site layouts go.
+- `site/`: The folder the generated files go in.
+- `static/`: Where non-processed files go.
+- `content/`: Where your site pages go.
+- `partials/`: Where things like your document head, navigation bar, etc. go.
+- `views/`: Where your site layouts go.
 - `site.config.js`: Your site configuration file.
