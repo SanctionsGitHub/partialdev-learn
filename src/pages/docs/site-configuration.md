@@ -18,13 +18,13 @@ You'll need to separate each config variable with a comma.
 
 ## Configuring your site
 
-Vanillify by default will include your page title and site title in `<title></title>` in your page heads. Without a site title, you wouldn't have anything to put in your head!
+Luxaura.js by default will include your page title and site title in `<title></title>` in your page heads. Without a site title, you wouldn't have anything to put in your head!
 ````yaml
-title: 'Vanillify'
+title: 'Luxaura.js'
 ````
 If your page has a description, this is included in a meta tag. If not, then your site description will go in that meta tag.
 ````yaml
-description: 'A vanilla static site generator'
+description: 'A simple static site generator'
 ````
 You can use whatever variables you would like to.
 
