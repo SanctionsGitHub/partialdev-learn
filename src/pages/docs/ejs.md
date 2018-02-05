@@ -5,7 +5,7 @@ layout: docs
 
 # EJS
 
-Vanillify uses EJS as its templating engine (like Jekyll uses Liquid).
+Luxaura.js uses EJS as its templating engine (like Jekyll uses Liquid).
 
 ## Using EJS
 
