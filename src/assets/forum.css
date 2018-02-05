@@ -14,5 +14,14 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Fira Mono';
+    src: url('firamono-regular-webfont.woff2') format('woff2'),
+         url('firamono-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 h1,h2,h3,h4,h5,h6{font-family:'Museo Sans',sans-serif;}
 html,body,input{font-family:'Publica Sans',sans-serif;}
+code,pre{font-family:'Fira Mono',monospace;}
