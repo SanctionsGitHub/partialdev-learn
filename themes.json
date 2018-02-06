@@ -1,7 +1,7 @@
 [{
-  "name": "Test Theme",
-  "description": "a test theme",
-  "image": "/assets/vanillify.png",
+  "name": "Default",
+  "description": "The default theme for Luxaura.js",
+  "image": "/assets/luxaura.png",
   "download": "https://github.com/TristianK3604/Luxaura.js",
-  "author": "test"
+  "author": "Tristian Kelly"
 }]
