@@ -4,10 +4,11 @@ name: Themes
 
 <% site.themes.forEach((theme) => { %>
   <div class="card" style="width: 18rem;">
+  <img class="card-img-top" src="<%= theme.image %>" alt="Card image cap">
   <div class="card-body">
     <h5 class="card-title"><%= theme.name %></h5>
     <p class="card-text"><%= theme.description %></p>
-    <a href="#" class="btn primary">Download</a>
+    <a href="<%= theme.download %>" class="btn primary">Download</a>
   </div>
   </div>
 <% }) %>
