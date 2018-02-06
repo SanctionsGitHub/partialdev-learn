@@ -4,7 +4,8 @@ title: Themes
 <section class="slant-section">
 <h1>Themes</h1>
 </section>
-<center style="text-align:left;">
+<div style="text-align:center;">
+<div style="display:inline-block;text-align:left;">
 <% site.themes.forEach((theme) => { %>
   <div class="card" style="width: 18rem;">
   <img class="card-img-top" src="<%= theme.image %>" alt="Screenshot of <%= theme.name %> theme">
@@ -16,4 +17,5 @@ title: Themes
   </div>
   </div>
 <% }) %>
-</center>
+</div>
+</div>
