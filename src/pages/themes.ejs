@@ -3,6 +3,11 @@ name: Themes
 ---
 
 <% site.themes.forEach((theme) => { %>
-    <h3><%= theme.name %></h3>
-    <%= theme.description %>
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><%= theme.name %></h5>
+    <p class="card-text"><%= theme.description %></p>
+    <a href="#" class="btn primary">Download</a>
+  </div>
+  </div>
 <% }) %>
