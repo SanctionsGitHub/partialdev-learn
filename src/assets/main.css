@@ -26,6 +26,7 @@ section {
   background: #373B44;
   color: #fff;
   height: 100vh;
+  overflow: hidden;
 }
 
 section > .content h1 {
