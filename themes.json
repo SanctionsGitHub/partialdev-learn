@@ -2,5 +2,6 @@
   "name": "Test Theme",
   "description": "a test theme",
   "image": "/assets/vanillify.png",
-  "download": "https://github.com/TristianK3604/Luxaura.js"
+  "download": "https://github.com/TristianK3604/Luxaura.js",
+  "author": "test"
 }]
