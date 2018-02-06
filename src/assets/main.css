@@ -26,7 +26,6 @@ section {
   background: #373B44;
   color: #fff;
   height: 100vh;
-  max-height: 100%;
 }
 
 section > .content h1 {
