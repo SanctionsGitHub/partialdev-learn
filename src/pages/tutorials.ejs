@@ -1,0 +1,21 @@
+<div class="nav"><button id="nav-btn"></button>
+  <div class="list"></div>
+
+</div>
+<div class="wrapper">
+  <div class="left-col">
+    <ul class="side-menu-items">
+    <% site.tutorials.forEach((tutorial) => { %>
+      <li class="sliding-u-l-r-l" onclick="location.href='/tutorials/#<%= tutorial.name';"><%= tutorial.name %></li>
+    <% }) %>
+  </div>
+<% site.tutorialsforEach((tutorial)=> { %>
+<div class="main-col">
+<div class="content">
+<h1 id="<%= tutorial.name %>"><%= tutorial.name %></h1>
+<%= tutorial.content %>
+</div>
+</div>
+<% }) %>
+</div>
+<script src="/assets/main.js"></script>
