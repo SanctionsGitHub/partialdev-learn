@@ -4,5 +4,5 @@
 },
  {
    "name": "another test",
-   "content": "does html work? edit: nope"
+   "content": "does html work? <b>edit: nope</b>"
  }]
