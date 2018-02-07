@@ -233,13 +233,14 @@ body {
 }
 #nav-btn:before {
   font-family: 'Museo Sans', sans-serif;
-  content: "MENU";
+  content: "Select a Topic";
+  margin-top: 25vh;
   display: inline-block;
 }
 
 #nav-btn.close:before {
   font-family: 'Museo Sans', sans-serif;
-  content: "CLOSE";
+  content: "Close";
   display: inline-block;
 }
 
