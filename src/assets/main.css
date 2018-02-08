@@ -486,10 +486,10 @@ label > .label-body {
 #docsearch {
     background-color: #373B44;
     background-image: url('/assets/search.png');
-    background-position: 8px 8px;
+    background-position: 7.5px 7.5px;
     background-repeat: no-repeat;
     background-size: 24px;
-    padding-left: 30px;
+    padding-left: 35px;
     color: #fff;
     border: 0;
 }
