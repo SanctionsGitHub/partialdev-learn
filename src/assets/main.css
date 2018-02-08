@@ -483,3 +483,9 @@ label > .label-body {
   display: inline-block;
   margin-left: .5rem;
   font-weight: normal; }
+#docsearch {
+    background-color: #393d44;
+    background-image: url('/assets/search.png');
+    background-size: 24px;
+    padding-left: 25px;
+}
