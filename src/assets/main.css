@@ -275,7 +275,7 @@ body {
     }
 }
 
-hr > .left-col ul li {
+.left-col ul li < hr {
     padding-top: 0;
 }
 
