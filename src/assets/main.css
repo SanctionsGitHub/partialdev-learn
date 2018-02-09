@@ -269,7 +269,10 @@ body {
    clear: both;
    }
    .left-col ul li {
-       display: inline;
+       display: inline-block;
+       padding-right: 5px;
+       padding-bottom: 5px;
+       margin-bottom: 0;
     }
 }
 
