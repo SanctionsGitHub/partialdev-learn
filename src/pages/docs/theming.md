@@ -96,3 +96,4 @@ Once you have finished your theme, you can add it to the Luxaura.js site:
       "author": "your name"
      }
     ````
+  3. Open a pull request
