@@ -132,10 +132,6 @@ h2 {
   display: none;
 }
 
-#nav-btn.close {
-  color: #325ADD;
-}
-
 .show {
   display: block;
 }
@@ -222,37 +218,6 @@ body {
   background: #325ADD;
   opacity: 1;
 }
-
-#nav-btn {
-  font-size: 2rem;
-  border: none;
-  background: none;
-  color: #000;
-  padding: 1rem;
-  z-index: 500;
-}
-#nav-btn:before {
-  font-family: 'Museo Sans', sans-serif;
-  content: "Select a Topic";
-  margin-top: 25vh;
-  display: inline-block;
-}
-
-#nav-btn.close:before {
-  font-family: 'Museo Sans', sans-serif;
-  content: "Close";
-  display: inline-block;
-}
-
-@media (max-width: 768px) {
-  .nav.show {
-    background: white;
-  }
-}
-
-.nav {
-  display: none;
-}
 .nav ul {
   color: #F4F6F8;
   list-style: none;
@@ -286,7 +251,6 @@ body {
     display: block;
     position: absolute;
     background: transparent;
-    z-index: 1000;
     width: 100%;
   }
 }
