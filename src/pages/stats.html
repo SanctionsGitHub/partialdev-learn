@@ -4,23 +4,23 @@
 <th style="text-align:center"><strong>Commit</strong></th>
 <th style="text-align:center"><strong>Author</strong></th>
 </tr>
+<span id="commits"></span>
 </thead>
 <tbody>
-<script id="products-template" type="x-handlebars-template">
-					{{#each commits}}
-						<tr>
-              <td style="text-align:center">{{commit.message}}</td>
-              <td style="text-align:center">{{commit.author.name}}</td>
-            </tr>
-					{{/each}}
-</script>
+
 </tbody>
 </table>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.min.js"></script>
+<script src="https://code.jquery.com/jquery.min.js"></script>
 <script>
-$.getJSON( "https://api.github.com/repos/TristianK3604/Luxaura.js/commits", function( data ) {
-		 commits = data;
-		generateAllProductsHTML(commits);
-	});
+	$.getJSON('https://api.github.com/repos/TristianK3604/Luxaura.js/commits').done(message);
+
+	function message(commits) {
+		commits.forEach(function(commit) {
+				html += '<tr>';
+				html += '<td style="text-align:center">' + commit.commit.message + '</td>\n';
+				html += '<td style="text-align:center">' + commit.commit.author.name + '</td>\n';
+				html += '</tr>'
+				$('#commits').append(html);
+			}
+		});
 </script>
