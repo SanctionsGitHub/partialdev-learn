@@ -1,7 +1,7 @@
 [{
   "name": "Default",
   "description": "The default theme for Luxaura.js",
-  "image": "/assets/luxaura.png",
+  "image": "/assets/luxaura-default.png",
   "repo": "TristianK3604/Luxaura.js",
   "author": "Tristian Kelly"
 }]
