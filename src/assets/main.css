@@ -275,6 +275,10 @@ body {
     }
 }
 
+.left-col ul li > hr {
+    padding-bottom: 0;
+}
+
 .left-col ul {
   list-style: none;
   margin: 0px;
