@@ -246,17 +246,6 @@ body {
   color: #325ADD;
   cursor: pointer;
 }
-@media (max-width: 768px) {
-  .left-col {
-    display: block;
-    position: absolute;
-    background: transparent;
-    width: 100%;
-    height: auto;
-    float: top;
-    z-index: 0;
-  }
-}
 .nav button {
   cursor: pointer;
 }
