@@ -27,9 +27,9 @@ Sadly, EJS is not supported in Markdown pages. To use Markdown, use either file 
 # Hello, world!
 
 This is a paragraph
-````markdown
+```markdown
 # this is a markdown code block
-````
+```
 ````
 Syntax Highlighting is supported in Markdown, using Highlight.js. This will render your page using Markdown, and output into `md-page.html`.
 
@@ -38,9 +38,10 @@ EJS is supported in HTML pages. Example:
 ````html
 <!-- html-page.html -->
 <h1>Hello, world!</h1>
-<? if page.title { ?>
+<? if (page.title) { ?>
 <?= page.title ?>
 <? } else { ?>
 <?= site.title ?>
 <? } ?>
 ````
+This will render all the EJS, and output into `html-page.html`.
