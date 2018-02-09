@@ -12,15 +12,19 @@
 </table>
 <script src="https://code.jquery.com/jquery.min.js"></script>
 <script>
-	$.getJSON('https://api.github.com/repos/TristianK3604/Luxaura.js/commits').done(message);
+	$(function() {
 
-	function message(commits) {
-		commits.forEach(function(commit) {
-				html += '<tr>';
-				html += '<td style="text-align:center">' + commit.commit.message + '</td>\n';
-				html += '<td style="text-align:center">' + commit.commit.author.name + '</td>\n';
-				html += '</tr>'
-				$('#commits').append(html);
-			}
-		});
+
+   var commits = [];
+
+   $.getJSON('https://api.github.com/repos/TristianK3604/Luxaura.js/commits', function(data) {
+       $.each(data.commit, function(i, f) {
+          var tblRow = "<tr>" + '<td style="text-align:center">' + f.commit.message + "</td>" +
+           '<td style="text-align:center">' + f.commit.author.name + "</td>"
+           $(tblRow).appendTo("#commits");
+     });
+
+   });
+
+});
 </script>
