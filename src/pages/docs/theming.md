@@ -4,6 +4,7 @@ layout: docs
 ---
 
 # Theming
+Before you start theming, you'll need to [fork the repository](https://github.com/TristianK3604/Luxaura.js/fork). This makes it easier to upgrade Luxaura, since all you'll need to do is compare the forks.
 
 ## Syntax Highlighting
 For Markdown files, if the type of language is specified in a code block, it will highlight it. Of course, this won't matter without the CSS to style the highlighting! The following is the default theme's syntax highlighting CSS, and you can take it and change it according to your needs:
