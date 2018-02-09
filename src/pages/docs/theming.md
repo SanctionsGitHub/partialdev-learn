@@ -1,3 +1,8 @@
+---
+title: Theming
+layout: docs
+---
+
 # Theming
 
 ## Syntax Highlighting
