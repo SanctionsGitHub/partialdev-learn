@@ -7,11 +7,11 @@ layout: docs
 
 ## Specifying layouts
 
-If a layout is not specified, it uses the layout in `default.ejs`. To specify a layout, you must put the following in your page's front matter:
+If a layout is not specified, it uses the layout in `default.html`. To specify a layout, you must put the following in your page's front matter:
 ````yaml
 layout: mylayout
 ````
-Replace `mylayout` with the file name of your layout (not including the `.ejs`).
+Replace `mylayout` with the file name of your layout (not including the `.html`).
 
 ## Variables
 
