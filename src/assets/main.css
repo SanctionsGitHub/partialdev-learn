@@ -265,6 +265,7 @@ body {
    .left-col {
    float: none;
    width: 100%;
+   height: auto;
    display: block;
    clear: both;
    }
