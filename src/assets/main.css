@@ -275,8 +275,8 @@ body {
     }
 }
 
-.left-col ul li > hr {
-    padding-bottom: 0;
+hr > .left-col ul li {
+    padding-top: 0;
 }
 
 .left-col ul {
