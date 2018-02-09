@@ -12,24 +12,11 @@
 <div class="main-col">
 <div class="content">
 <div id="content">
-    <button type="button" id="sidebarCollapse" class="btn btn-info navbar-btn">
-        <i class="glyphicon glyphicon-align-left"></i>
-        Choose a Topic
-    </button>
 <div>
 <%- body %>
 </div>
 </div>
 </div>
 <%- include('../partials/foot') %>
-<script>
-$(document).ready(function () {
-
-    $('#sidebarCollapse').on('click', function () {
-        $('#sidebar').toggleClass('active');
-    });
-
-});
-</script>
 </body>
 </html>
