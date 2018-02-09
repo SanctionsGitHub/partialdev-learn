@@ -253,6 +253,7 @@ body {
     background: transparent;
     width: 100%;
     height: auto;
+    float: top;
   }
 }
 .nav button {
@@ -269,11 +270,7 @@ body {
   float: left;
   display: inline-block;
 }
-/*@media (max-width: 768px) {
-  .left-col {
-    display: none;
-  }
-}*/
+
 .left-col ul {
   list-style: none;
   margin: 0px;
