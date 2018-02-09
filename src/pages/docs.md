@@ -6,6 +6,7 @@ layout: docs
 # Introduction
 
 - [Installation](/docs/installation)
+- [Pages](/docs/pages)
 
 Luxaura.js is a simple static site generator.
 
