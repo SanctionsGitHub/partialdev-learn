@@ -8,7 +8,7 @@ title: Themes
 <div style="display:inline-block;text-align:left;">
 <% site.themes.forEach((theme) => { %>
   <div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="<%= theme.image %>" alt="Screenshot of <%= theme.name %> theme">
+  <img class="card-img-top" src="<%= theme.image %>" style="max-height:180px;" alt="Screenshot of <%= theme.name %> theme">
   <div class="card-body">
     <h5 class="card-title"><%= theme.name %></h5>
     <h6 class="card-subtitle mb-2 text-muted">By <%= theme.author %></h6>
@@ -33,7 +33,7 @@ title: Themes
         </button>
       </div>
       <div class="modal-body">
-      <img style="float:right;vertical-align:middle;position:absolute;top:0;bottom:0;right:0;margin:auto;" src="<%= theme.image %>" alt="Screenshot of <%= theme.name %> theme">
+      <img style="float:right;vertical-align:middle;position:absolute;top:0;bottom:0;right:5px;margin:auto;max-height:270px;" src="<%= theme.image %>" alt="Screenshot of <%= theme.name %> theme">
       <h6 class="mb-2 text-muted">By <%= theme.author %></h6>
       <p><%= theme.description %></p>
 <a href="https://app.netlify.com/start/deploy?repository=https://github.com/<%= theme.repo %>">
