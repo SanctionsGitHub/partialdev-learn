@@ -9,6 +9,18 @@ layout: docs
 
 Luxaura.js is a simple static site generator.
 
+## Features
+
+HTML Pre-processors:
+  - Pug
+  - Markdown
+
+Styling:
+  - Syntax Highlighting (only in Markdown files)
+
+Templating:
+  - EJS
+
 ## Folder structure
 
 ````
