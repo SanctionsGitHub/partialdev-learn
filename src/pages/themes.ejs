@@ -47,3 +47,65 @@ title: Themes
   </div>
 </div>
 <% }) %>-->
+<script>
+const search = instantsearch({
+  appId: '5UN3Q32FUS',
+  apiKey: '4d495bf8e8d2f1dd167a2ea0a459f030',
+  indexName: 'themes',
+  urlSync: true
+});
+
+search.start();
+</script>
+<div id="current-refined-values">
+  <!-- CurrentRefinedValues widget will appear here -->
+</div>
+
+<div id="clear-all">
+  <!-- ClearAll widget will appear here -->
+</div>
+
+[ ... ]
+
+<div id="pagination">
+  <!-- Pagination widget will appear here -->
+</div>
+
+<script>
+  const search = instantsearch(options);
+
+  // initialize currentRefinedValues
+  search.addWidget(
+    instantsearch.widgets.currentRefinedValues({
+      container: '#current-refined-values',
+      // This widget can also contain a clear all link to remove all filters,
+      // we disable it in this example since we use `clearAll` widget on its own.
+      clearAll: false
+    })
+  );
+
+  // initialize clearAll
+  search.addWidget(
+    instantsearch.widgets.clearAll({
+      container: '#clear-all',
+      templates: {
+        link: 'Reset everything'
+      },
+      autoHideContainer: false
+    })
+  );
+
+  // initialize pagination
+  search.addWidget(
+    instantsearch.widgets.pagination({
+      container: '#pagination',
+      maxPages: 20,
+      // default is to scroll to 'body', here we disable this behavior
+      scrollTo: false
+    })
+  );
+
+  [...]
+
+  search.start();
+</script>
