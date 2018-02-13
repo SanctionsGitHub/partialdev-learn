@@ -30,6 +30,7 @@ else
 - **Syntax Highlighting:** <i class="fa fa-check"></i>
 - **File Extension:** `.md` or `.markdown`
 - **Example:**
+
 ````markdown
 <!-- md-page.md -->
 # Hello, world!
