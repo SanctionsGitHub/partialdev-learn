@@ -55,7 +55,7 @@ h1,h2,h3,h4,h5,h6,.side-menu-items li,.btn,.tooltip {
 .btn {   
     position:relative;
     overflow:hidden;
-    transform:translate3d(0,0,0);
+    /*transform:translate3d(0,0,0);*/
     display: inline-block;
     height: 38px;
     padding: 0 30px;
@@ -471,7 +471,7 @@ label > .label-body {
   -webkit-transition: ease-out 0.4s;
   -moz-transition: ease-out 0.4s;
   transition: ease-out 0.4s;
-  -webkit-transform: translateZ(0);
+  /*-webkit-transform: translateZ(0);*/
 }
 .get-started:hover {
     box-shadow: inset 400px 0 0 0 #33C3F0;
