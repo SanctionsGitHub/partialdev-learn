@@ -466,3 +466,18 @@ label > .label-body {
 .fa-times {
   color: red;
 }
+
+.get-started {
+  color: #82f6d8;
+}
+.get-started:hover {
+  animation: stripes-move 0.75s infinite linear;
+  background: repeating-linear-gradient(45deg, #82f6d8 0, #82f6d8 0.25em, transparent 0.25em, transparent 0.5em);
+  color: #f682a0;
+}
+
+@keyframes stripes-move {
+  100% {
+    background-position: 5em 0px;
+  }
+}
