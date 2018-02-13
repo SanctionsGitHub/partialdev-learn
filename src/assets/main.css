@@ -15,7 +15,6 @@
 }
 
 .mobile-logo{display:none;}
-.logo{margin-top:15vh;}
 
 @media (max-width: 400px) {
     .logo{display:none;}
