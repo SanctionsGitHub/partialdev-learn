@@ -8,7 +8,7 @@ layout: docs
 |**Variable**|**Description**|
 |:---------------:|:---------:|
 |`site`|Sitewide information from your `site.config.js` file. Use this to call anything from your site config.|
-|`page`|Page details in your front matter. Use this to call any variables in the front matter (including custom variables).|
+|`page`|Page details in your front matter. Use this to call any variables in the front matter.|
 
 
 ## Calling the variables
