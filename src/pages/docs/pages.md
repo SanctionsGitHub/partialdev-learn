@@ -142,7 +142,7 @@ layout: docs
 
   @media (min-width: 550px) {
     .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
-      color: inherit !important;
+      /*color: inherit !important;*/
       font-weight: normal !important;
     }
 
