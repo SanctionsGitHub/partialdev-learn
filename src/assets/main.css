@@ -476,3 +476,9 @@ label > .label-body {
     box-shadow: inset 400px 0 0 0 #33C3F0;
     border: #33C3F0;
 }
+.arrow {
+    transition: ease-out 0.3s;
+}
+.arrow:hover {
+    padding-left: 5px;
+}
