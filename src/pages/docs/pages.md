@@ -42,7 +42,7 @@ layout: docs
   }
 
   .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:before {
-    background: #f5f3f7 !important;
+    /*background: #f5f3f7 !important;*/
   }
 
   .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:after {
@@ -90,7 +90,7 @@ layout: docs
   }
 
   .algolia-autocomplete .ds-dropdown-menu .ds-suggestion.ds-cursor .algolia-docsearch-suggestion:not(.suggestion-layout-simple) .algolia-docsearch-suggestion--content {
-    background-color: #f5f3f7 !important;
+    /*background-color: #f5f3f7 !important;*/
   }
 
   .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--content.algolia-docsearch-suggestion--no-results {
@@ -105,7 +105,7 @@ layout: docs
   }
 
   .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--content.algolia-docsearch-suggestion--no-results .algolia-docsearch-suggestion--text {
-    color: inherit !important;
+    /*color: inherit !important;*/
     font-weight: normal !important;
   }
 
@@ -113,7 +113,7 @@ layout: docs
     padding: 0.35rem 0.7rem !important;
     margin-top: 0 !important;
     font-size: 0.9rem !important;
-    border-color: #f5f3f7 !important;
+    /*border-color: #f5f3f7 !important;*/
     /*color: #663399 !important;*/
     font-weight: bold !important;
   }
@@ -130,7 +130,7 @@ layout: docs
     width: 100% !important;
     height: 30px !important;
     margin-top: 0 !important;
-    border-top: 1px dotted #f5f3f7 !important;
+    /*border-top: 1px dotted #f5f3f7 !important;*/
   }
 
   .algolia-autocomplete .algolia-docsearch-footer--logo {
