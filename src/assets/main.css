@@ -459,3 +459,10 @@ label > .label-body {
     color: #fff;
     border: 0;
 }
+.fa-check {
+  color: green;
+}
+
+.fa-times {
+  color: red;
+}
