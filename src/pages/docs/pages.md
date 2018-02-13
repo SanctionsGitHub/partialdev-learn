@@ -7,7 +7,11 @@ layout: docs
 Luxaura.js supports 2 HTML pre-processors, Markdown and Pug. Of course, it also supports plain HTML!
 
 ## Pug Pages
-EJS is supported in Pug pages. To use Pug, simply use the file extension `.pug` in your pages. Example:
+- **EJS Support:** <i class="fa fa-check"></i>
+- **Variable Access:** <i class="fa fa-check"></i>
+- **Syntax Highlighting:** <i class="fa fa-times"></i>
+- **File Extension:** `.pug`
+- **Example:**
 ````pug
 //- my-page.pug
 h1 Hello, world!
@@ -18,10 +22,14 @@ if page.title
 else
   h4= site.title
 ````
-This will render your page using Pug and EJS, and output into `my-page.html`.
+- **Outputs into** `my-page.html`
 
 ## Markdown Pages
-Sadly, EJS is not supported in Markdown pages. To use Markdown, use either file extension `.md` or `.markdown`. Example:
+- **EJS Support:** <i class="fa fa-times"></i>
+- **Variable Access:** <i class="fa fa-times"></i>
+- **Syntax Highlighting:** <i class="fa fa-check"></i>
+- **File Extension:** `.md` or `.markdown`
+- **Example:**
 ````markdown
 <!-- md-page.md -->
 # Hello, world!
@@ -31,10 +39,14 @@ This is a paragraph
 # this is a markdown code block
 ```
 ````
-Syntax Highlighting is supported in Markdown, using Highlight.js. This will render your page using Markdown, and output into `md-page.html`.
+- **Outputs into** `md-page.html`
 
 ## HTML Pages
-EJS is supported in HTML pages. Example:
+- **EJS Support:** <i class="fa fa-check"></i>
+- **Variable Access:** <i class="fa fa-check"></i>
+- **Syntax Highlighting:** <i class="fa fa-times"></i>
+- **File Extension:** `.html`
+- **Example:**
 ````html
 <!-- html-page.html -->
 <h1>Hello, world!</h1>
@@ -44,4 +56,4 @@ EJS is supported in HTML pages. Example:
 <?= site.title ?>
 <? } ?>
 ````
-This will render all the EJS, and output into `html-page.html`.
+- **Outputs into** `html-page.html`
