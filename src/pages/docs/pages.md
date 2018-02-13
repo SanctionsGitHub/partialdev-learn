@@ -77,7 +77,7 @@ layout: docs
   }
 
   .algolia-autocomplete .algolia-docsearch-suggestion--text {
-    color: hsla(270,6.8076334240000005%,0%,0.54) !important;
+    /*color: hsla(270,6.8076334240000005%,0%,0.54) !important;*/
   }
 
   .algolia-autocomplete .algolia-docsearch-suggestion--text .algolia-docsearch-suggestion--highlight {
