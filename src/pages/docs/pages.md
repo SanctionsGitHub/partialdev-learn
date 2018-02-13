@@ -35,7 +35,7 @@ layout: docs
   }
 
   .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
-    color: hsla(270,6.8076334240000005%,0%,0.54) !important;
+    /*color: hsla(270,6.8076334240000005%,0%,0.54) !important;*/
     font-size: 0.9rem !important;
     font-weight: normal !important;
     padding: 0.35rem 0.7rem !important;
