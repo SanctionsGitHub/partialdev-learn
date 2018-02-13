@@ -19,7 +19,7 @@ See [Variables](/docs/variables) for information on this.
 - `<?#` Comment tag, no output
 
 ### Including partials
-If you want to include your document head or navigation bar, simply use the following script:
+If you'd like to include a partial, simply use the following script:
 ````
 <?- include('../partials/mydocument.html') ?>
 ````
