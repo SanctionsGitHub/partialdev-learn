@@ -476,5 +476,5 @@ label > .label-body {
     border: #33C3F0;
 }
 .get-started:hover:after {
-    content: "\2192";
+    content: "does it even work";
 }
