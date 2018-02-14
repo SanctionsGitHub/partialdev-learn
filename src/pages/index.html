@@ -29,6 +29,59 @@ background-size: 1800% 1800%;
     50%{background-position:100% 19%}
     100%{background-position:0% 82%}
 }
+  .algolia-autocomplete .ds-dropdown-menu {
+    position: fixed !important;
+    top: 2.8rem !important;
+    left: 0.7rem !important;
+    right: 0.7rem !important;
+    min-width: calc(100vw - 1.4rem) !important;
+    max-width: calc(100vw - 2rem) !important;
+    max-height: calc(100vh - 5rem) !important;
+    box-shadow: 0 3px 10px 0.05rem rgba(157,124,191,0.25) !important;
+  }
+
+  .is-homepage .algolia-autocomplete .ds-dropdown-menu {
+    top: 3.5rem !important;
+  }
+
+  /* .searchWrap to beat docsearch.css' !important */
+  .searchWrap .algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu,
+  .searchWrap .algolia-autocomplete.algolia-autocomplete-left .ds-dropdown-menu {
+    left: 0.7rem !important;
+    right: 0.7rem !important;
+  }
+
+  .algolia-autocomplete .ds-dropdown-menu .ds-suggestions {
+    margin-top: 0 !important;
+  }
+
+  .algolia-docsearch-suggestion--wrapper {
+    padding-top: 0 !important;
+  }
+
+  .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
+    font-size: 0.9rem !important;
+    font-weight: normal !important;
+    padding: 0.35rem 0.7rem !important;
+  }
+
+  .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:before {
+    background: #f5f3f7 !important;
+  }
+
+  .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column:after {
+    display: none !important;
+  }
+
+  .algolia-autocomplete .algolia-docsearch-suggestion {
+    padding: 0 !important;
+  }
+
+  .algolia-autocomplete .algolia-docsearch-suggestion--content {
+    padding: 0.7rem !important;
+    width: 100% !important;
+    max-width: 100% !important;
+  }
 </style>
 <section class="slant-section" style="height:30vh;margin-bottom:15px;">
     <img src="/assets/luxaura.png" class="logo" alt="Luxaura.js"><h1 class="mobile-logo">Luxaura.js</h1><br />
