@@ -475,6 +475,3 @@ label > .label-body {
     box-shadow: inset 400px 0 0 0 #33C3F0;
     border: #33C3F0;
 }
-.get-started:after {
-    content: "→";
-}
