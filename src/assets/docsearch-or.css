@@ -172,3 +172,6 @@
     }
   }
 .algolia-autocomplete .ds-dropdown-menu{border-top:1px solid #33C3F0;}
+.algolia-autocomplete .ds-dropdown-menu [class^=ds-dataset-] {
+      border-radius: 0;
+}
