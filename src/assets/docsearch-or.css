@@ -178,4 +178,11 @@ border-color: #33C3F0;
       padding: 0; 
 }
 .algolia-autocomplete .ds-dropdown-menu:before {
-      content: none; }
+      content: none; 
+}
+.algolia-autocomplete .algolia-docsearch-footer {
+    width: 100% !important;
+    height: 30px !important;
+    margin-top: 0 !important;
+    border-top: 1px dotted #eee !important;
+  }
