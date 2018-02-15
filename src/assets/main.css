@@ -1,20 +1,4 @@
 @font-face {
-    font-family: 'Museo Sans';
-    src: url('MuseoSans_500-webfont.woff2') format('woff2'),
-         url('MuseoSans_500-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Publica Sans';
-    src: url('publicasans-regular-webfont.woff2') format('woff2'),
-         url('publicasans-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'Geomanist';
     src: url('geomanist-regular-webfont.eot');
     src: url('geomanist-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -32,7 +16,6 @@
 	 url('Nunito-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
-
 }
 #down-arrow {
 	-moz-animation: bounce 3s infinite;
