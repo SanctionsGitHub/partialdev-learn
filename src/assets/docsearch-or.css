@@ -194,7 +194,10 @@ border-color: #33C3F0;
     padding: 8px 16px 8px 12px;
     background: rgba(153, 153, 153, 0.08);
     display: block;
-    height: 100%;
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--subcategory-column,
   .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--content {
