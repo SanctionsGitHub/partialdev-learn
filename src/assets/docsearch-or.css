@@ -182,7 +182,7 @@ border-color: #33C3F0;
     margin-top: 0 !important;
     border-top: 1px solid #ddd !important;
   }
-.algolia-autocomplete .algolia-docsearch-suggestion--category-header > .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
+.algolia-autocomplete .algolia-docsearch-suggestion--category-header:not(:first) {
   border-top: 1px solid #ddd !important;
 }
 .algolia-autocomplete .algolia-docsearch-suggestion__secondary .algolia-docsearch-suggestion--subcategory-column {
