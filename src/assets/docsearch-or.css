@@ -2,11 +2,11 @@
     top: 2.8rem !important;
     left: 0.7rem !important;
     right: 0.7rem !important;
-    transition: max-height 0.2s ease-out !important;
     min-width: calc(100vw - 1.4rem) !important;
     max-width: calc(100vw - 2rem) !important;
     max-height: calc(100vh - 5rem) !important;
     box-shadow: 0 3px 10px 0.05rem rgba(157,124,191,0.25) !important;
+    transition: all .5s ease-in-out;
   }
 
   .is-homepage .algolia-autocomplete .ds-dropdown-menu {
