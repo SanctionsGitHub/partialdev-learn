@@ -189,7 +189,7 @@ border-color: #33C3F0;
   border-top: 1px solid #ddd !important;
 }
 
-.algolia-autocomplete .ds-dropdown-menu [class^=ds-dataset-] > .algolia-docsearch-suggestion--category-header {
+.algolia-autocomplete .ds-dropdown-menu > .algolia-docsearch-suggestion--category-header {
   border-top: none !important;
 }
 
