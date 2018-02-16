@@ -187,6 +187,6 @@ border-color: #33C3F0;
     border-top: 1px solid #ddd !important;
   }
 
-.algolia-docsearch-suggestion:last-child {
-  border-bottom: 1px solid #ddd !important;
+.algolia-autocomplete .algolia-docsearch-suggestion--category-header {
+  border-top: 1px solid #ddd !important;
 }
