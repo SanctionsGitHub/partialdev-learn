@@ -192,7 +192,14 @@ border-color: #33C3F0;
 }
 
 .algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
-    /*padding: 8px 16px 8px 12px;*/
+    padding: 8px 16px 8px 12px;
     background: rgba(153, 153, 153, 0.08);
     display: block;
+}
+.algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--subcategory-column,
+  .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--content {
+    padding-bottom: 26px; 
+}
+.algolia-autocomplete .algolia-docsearch-suggestion__secondary .algolia-docsearch-suggestion--subcategory-column {
+    color: #666666; 
 }
