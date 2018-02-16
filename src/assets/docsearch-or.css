@@ -1,5 +1,4 @@
   .algolia-autocomplete .ds-dropdown-menu {
-    /*position: fixed !important;*/
     top: 2.8rem !important;
     left: 0.7rem !important;
     right: 0.7rem !important;
@@ -189,16 +188,10 @@ border-color: #33C3F0;
   border-top: 1px solid #ddd !important;
 }
 
-.algolia-autocomplete  > .algolia-docsearch-suggestion--category-header {
+.algolia-autocomplete .ds-dropdown-menu:before  > .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
   border-top: none !important;
 }
 
-.algolia-autocomplete .algolia-docsearch-suggestion--subcategory-column {
-    padding: 8px 16px 8px 12px;
-    background: rgba(153, 153, 153, 0.08);
-    display: block;
-    background-size: 100% 100%;
-}
 .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--subcategory-column,
   .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--content {
     padding-bottom: 26px; 
