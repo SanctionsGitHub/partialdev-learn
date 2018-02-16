@@ -196,9 +196,7 @@ border-color: #33C3F0;
     display: block;
     min-height: 100%;
     height: auto;
-  position: fixed;
-  top: 0;
-
+    position: fixed;
 }
 .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--subcategory-column,
   .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--content {
