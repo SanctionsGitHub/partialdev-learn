@@ -145,7 +145,6 @@
       min-width: 500px !important;
     }
 
-    /* .searchWrap to beat docsearch.css' !important */
     .searchWrap .algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu {
       right: 0 !important;
       left: inherit !important;
@@ -186,6 +185,9 @@ border-color: #33C3F0;
     margin-top: 0 !important;
     border-top: 1px solid #ddd !important;
   }
+.algolia-autocomplete .algolia-docsearch-suggestion {
+    padding: 0; 
+}
 
 .algolia-autocomplete .algolia-docsearch-suggestion--category-header {
   border-top: 1px solid #ddd !important;
