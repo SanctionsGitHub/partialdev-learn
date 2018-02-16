@@ -13,7 +13,6 @@
     top: 3.5rem !important;
   }
 
-  /* .searchWrap to beat docsearch.css' !important */
   .searchWrap .algolia-autocomplete.algolia-autocomplete-right .ds-dropdown-menu,
   .searchWrap .algolia-autocomplete.algolia-autocomplete-left .ds-dropdown-menu {
     left: 0.7rem !important;
@@ -196,7 +195,6 @@ border-color: #33C3F0;
     display: block;
     min-height: 100%;
     height: auto;
-    position: fixed;
 }
 .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--subcategory-column,
   .algolia-autocomplete .ds-suggestion:last-child .algolia-docsearch-suggestion--content {
