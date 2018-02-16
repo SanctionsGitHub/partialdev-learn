@@ -184,5 +184,5 @@ border-color: #33C3F0;
     width: 100% !important;
     height: 30px !important;
     margin-top: 0 !important;
-    border-top: 1px dotted #ddd !important;
+    border-top: 1px solid #ddd !important;
   }
