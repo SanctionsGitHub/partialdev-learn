@@ -186,3 +186,7 @@ border-color: #33C3F0;
     margin-top: 0 !important;
     border-top: 1px solid #ddd !important;
   }
+
+.algolia-docsearch-suggestion:last-child {
+  border-bottom: 1px solid #ddd !important;
+}
