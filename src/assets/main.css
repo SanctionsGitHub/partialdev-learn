@@ -22,7 +22,13 @@
 }
 .card-group .card {
 	border-radius: 0 !important;
+	box-shadow: 0 !important;
 }
+.card {
+	border-radius: 0 !important;
+	box-shadow: 0 3px 10px 0.05rem rgba(157,124,191,0.25) !important;
+}
+	
 #down-arrow {
 	-moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;
