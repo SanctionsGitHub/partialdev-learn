@@ -17,6 +17,10 @@
     font-weight: normal;
     font-style: normal;
 }
+.card-group {
+	 box-shadow: 0 3px 10px 0.05rem rgba(157,124,191,0.25) !important;
+	border-radius: 0;
+}
 #down-arrow {
 	-moz-animation: bounce 3s infinite;
 	-webkit-animation: bounce 3s infinite;
