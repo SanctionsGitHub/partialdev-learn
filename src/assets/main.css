@@ -11,9 +11,12 @@
 }
 @font-face {
     font-family: 'Nunito';
-    src: url('nunito-regular-webfont.woff2') format('woff2'),
+    src: url('Nunito-Regular.eot');
+    src: url('Nunito-Regular.eot?#iefix') format('embedded-opentype'),
+	 url('nunito-regular-webfont.woff2') format('woff2'),
          url('nunito-regular-webfont.woff') format('woff'),
-	 url('Nunito-Regular.ttf') format('truetype');
+	 url('Nunito-Regular.ttf') format('truetype'),
+	 url('Nunito-Regular.svg#Nunito-Regular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
