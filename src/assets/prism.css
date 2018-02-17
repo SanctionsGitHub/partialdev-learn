@@ -7,8 +7,7 @@ http://prismjs.com/download.html?themes=prism&languages=markup+css+clike+javascr
  */
 @font-face {
     font-family: 'Fira Mono';
-    src: url('firamono-regular-webfont.woff2') format('woff2'),
-         url('firamono-regular-webfont.woff') format('woff');
+    src: local('Fira Mono Regular'), local('FiraMono-Regular'), url('firamono-regular-webfont.woff2') format('woff2'), url('firamono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
