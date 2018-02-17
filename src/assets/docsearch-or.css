@@ -5,7 +5,7 @@
     min-width: calc(100vw - 1.4rem) !important;
     max-width: calc(100vw - 2rem) !important;
     max-height: calc(100vh - 5rem) !important;
-    box-shadow: 0 3px 10px 0.05rem rgba(157,124,191,0.25) !important;
+    box-shadow: 0 0 10px 0.05rem rgba(157,124,191,0.25) !important;
   }
 
   .is-homepage .algolia-autocomplete .ds-dropdown-menu {
