@@ -1,8 +1,6 @@
-const themes = require('./themes')
 module.exports = {
   site: {
     title: 'Luxaura.js',
-    description: 'A simple static site generator',
-    themes
+    description: 'A simple static site generator'
   }
 }
