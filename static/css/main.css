@@ -8,6 +8,10 @@ pre,code {
     font-family: "roboto-mono", monospace !important
 }
 
+.main {
+    font-style: italic
+}
+
 .sidebar {
     position: fixed;
     top: 80px;
