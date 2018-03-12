@@ -20,6 +20,11 @@ pre,code {
     float:left;
     color:#999;
 }
+
+.header-anchor:hover {
+    text-decoration: none;
+    color: #999;
+}
     
 
 .sidebar {
