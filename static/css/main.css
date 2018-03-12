@@ -42,15 +42,15 @@ code,.uk-input {
     border-radius: 500px
 }
 
-a:not(.uk-button) {
+a:not(.uk-button, .uk-logo) {
     position: relative
 }
 
-a:not(.uk-button):hover {
+a:not(.uk-button, .uk-logo):hover {
     text-decoration: none
 }
 
-a:not(.uk-button):before {
+a:not(.uk-button, .uk-logo):before {
   content: "";
   position: absolute;
   width: 100%;
@@ -65,7 +65,7 @@ a:not(.uk-button):before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:not(.uk-button):hover:before {
+a:not(.uk-button, .uk-logo):hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
