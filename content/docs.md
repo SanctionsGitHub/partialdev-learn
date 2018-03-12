@@ -8,7 +8,7 @@ layout: docs
 - [Installation](/docs/installation)
 - [Pages](/docs/pages)
 
-[![Build Status](https://img.shields.io/travis/luxaurajs/Luxaura.js/master.svg?style=flat-square)](https://travis-ci.org/luxaurajs/Luxaura.js) [![Releases](https://img.shields.io/github/release/luxaurajs/Luxaura.js/all.svg?style=flat-square)](https://github.com/luxaurajs/Luxaura.js/releases) ![devDependency Status](https://img.shields.io/david/dev/luxaurajs/Luxaura.js.svg?style=flat-square) [![Join the chat at https://gitter.im/luxaurajs/Luxaura.js](https://img.shields.io/gitter/room/luxaurajs/Luxaura.js.svg?style=flat-square)](https://gitter.im/luxaurajs/Luxaura.js?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Build Status](https://img.shields.io/travis/luxaurajs/Luxaura.js/master.svg?style=flat-square)](https://travis-ci.org/luxaurajs/Luxaura.js) [![Releases](https://img.shields.io/github/release/luxaurajs/Luxaura.js/all.svg?style=flat-square)](https://github.com/luxaurajs/Luxaura.js/releases) ![devDependency Status](https://img.shields.io/david/dev/luxaurajs/Luxaura.js.svg?style=flat-square)
 
 Luxaura.js is a simple static site generator.
 
