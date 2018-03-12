@@ -9,6 +9,7 @@ pre,code {
 }
 
 .main h1:first-child {
+    margin-bottom: 5px;
     border-bottom: 1px solid #e5e5e5;
 }
 
