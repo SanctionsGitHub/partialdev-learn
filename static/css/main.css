@@ -13,6 +13,10 @@ pre,code {
     border-bottom: 1px solid #e5e5e5;
 }
 
+.main h1 .header-anchor:first-child {
+    display: none;
+}
+
 .header-anchor {
     color:inherit;
     text-decoration:none;
