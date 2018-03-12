@@ -8,6 +8,10 @@ pre,code {
     font-family: "roboto-mono", monospace !important
 }
 
+.main h1:first-child {
+    border-bottom: 1px solid #e5e5e5;
+}
+
 .sidebar {
     position: fixed;
     top: 80px;
