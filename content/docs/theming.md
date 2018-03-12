@@ -87,18 +87,12 @@ For Markdown files, if the type of language is specified in a code block, it wil
 }
 ````
 
-## Adding your theme
+## Showing others your theme
 
-Once you have finished your theme, you can add it to the Luxaura.js site:
+Once you have finished your theme, you may want to show it off to others, and you can! In the Luxaura.js community, there is a sub-tag called "Themes" under "Extend". Use that tag, and show off your theme! Here are some suggestions for your post:
 
-  1. Go to the repository and open the [themes.json](https://github.com/TristianK3604/luxaura.js-site/blob/master/themes.json) file
-  2. Add your theme in the following format:
-     ````json
-     {
-      "name": "theme name",
-      "description": "theme description",
-      "image": "theme screenshot",
-      "download": "theme repository or download link",
-      "author": "your name"
-     }
-  3. Open a pull request
+- Include a screenshot
+- Include a demo
+- Include a link to documentation (if any)
+
+And don't forget the download link!
