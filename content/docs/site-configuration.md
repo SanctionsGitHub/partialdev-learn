@@ -5,7 +5,7 @@ layout: docs
 
 # Site Configuration
 
-All site configuration goes in your `site.config.js` file. You can use any variable you like. **Put all configuration inside the following, otherwise your Vanillify installation might fail or variables will not be called!**
+All site configuration goes in your `site.config.js` file. You can use any variable you like. **Put all configuration inside the following, otherwise your Luxaura.js installation might fail or variables will not be called!**
 
 ````javascript
 module.exports = {
