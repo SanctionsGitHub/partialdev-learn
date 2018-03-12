@@ -10,6 +10,7 @@ pre,code {
 
 body {
     padding-top: 80px;
+    margin-top: -80px;
 }
 
 .main h1:first-child {
