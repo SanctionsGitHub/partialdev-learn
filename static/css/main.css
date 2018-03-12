@@ -55,6 +55,7 @@ code,.uk-input,.uk-button {
   left: 0;
   background-color: #0f6ecd;
   visibility: hidden;
+  padding-top: 1px;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
   -webkit-transition: all 0.3s ease-in-out 0s;
