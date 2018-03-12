@@ -179,7 +179,6 @@ code,.uk-input,.uk-button {
     width: 100% !important;
   }
     .algolia-autocomplete .algolia-docsearch-suggestion .algolia-docsearch-suggestion--content.algolia-docsearch-suggestion--no-results {
-      border-top: 1px solid #ddd !important;
       max-width: 100% !important;
     width: 100% !important;
     font-weight: normal !important;
