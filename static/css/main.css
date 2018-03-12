@@ -34,6 +34,10 @@ pre,code {
     background: #fff;
 }
 
+.uk-button {
+    border-radius: 3px
+}
+
 .main .uk-container {
     padding-left: 15px;
     padding-right: 15px;
