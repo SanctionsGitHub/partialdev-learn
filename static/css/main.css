@@ -46,11 +46,11 @@ a:not(.uk-button) {
     position: relative
 }
 
-a:hover :not(.uk-button) {
+a:not(.uk-button):hover {
     text-decoration: none
 }
 
-a:before :not(.uk-button) {
+a:not(.uk-button):before {
   content: "";
   position: absolute;
   width: 100%;
@@ -65,7 +65,7 @@ a:before :not(.uk-button) {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before :not(.uk-button) {
+a:not(.uk-button):hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
