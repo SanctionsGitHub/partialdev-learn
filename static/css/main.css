@@ -39,18 +39,18 @@ code,.uk-input {
 }
 
 .uk-button {
-    border-radius: 20px
+    border-radius: 500px
 }
 
-a {
+a:not(.uk-button) {
     position: relative
 }
 
-a:hover {
+a:hover:not(.uk-button) {
     text-decoration: none
 }
 
-a:before {
+a:before:not(.uk-button) {
   content: "";
   position: absolute;
   width: 100%;
@@ -65,7 +65,7 @@ a:before {
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:hover:before {
+a:hover:before:not(.uk-button) {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
