@@ -34,8 +34,12 @@ pre,code {
     background: #fff;
 }
 
-.uk-button,code,.uk-input {
-    border-radius: 4px
+code,.uk-input {
+    border-radius: 3px
+}
+
+.uk-button {
+    border-radius: 6px
 }
 
 .main .uk-container {
