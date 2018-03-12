@@ -8,6 +8,12 @@ pre,code {
     font-family: "roboto-mono", monospace !important
 }
 
+a {
+    transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
 .sidebar {
     position: fixed;
     top: 80px;
