@@ -16,6 +16,16 @@ const markdownIt = require('markdown-it')({
     return '';
   }
 });
+const markdownItAnchor = require("markdown-it-anchor")
+markdownIt.use(markdownItAnchor, {
+  level: 1,
+  // slugify: string => string,
+  permalink: true,
+  // renderPermalink: (slug, opts, state, permalink) => {},
+  permalinkClass: 'header-anchor',
+  permalinkSymbol: '#',
+  permalinkBefore: true
+})
 const frontMatter = require('front-matter')
 const globP = promisify(require('glob'))
 const config = require('../site.config')
