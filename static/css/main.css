@@ -8,6 +8,10 @@ pre,code {
     font-family: "roboto-mono", monospace !important
 }
 
+body {
+    padding-top: 80px;
+}
+
 .main h1:first-child {
     padding-bottom: 10px;
     border-bottom: 1px solid #e5e5e5;
