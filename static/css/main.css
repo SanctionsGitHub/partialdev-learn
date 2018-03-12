@@ -38,6 +38,10 @@ pre,code {
     border-radius: 3px
 }
 
+code {
+    border-radius: 3px
+}
+
 .main .uk-container {
     padding-left: 15px;
     padding-right: 15px;
