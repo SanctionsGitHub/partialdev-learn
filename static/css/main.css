@@ -42,19 +42,19 @@ code,.uk-input {
     border-radius: 500px
 }
 
-a:not(.uk-button),a:not(.uk-navbar-item),a:not(.uk-navbar-nav li a) {
+.uk-navbar-nav li a {
     position: relative
 }
 
-a:not(.uk-button):hover,a:not(.uk-navbar-item):hover,a:not(.uk-navbar-nav li a):hover {
+.uk-navbar-nav li a:hover {
     text-decoration: none
 }
 
-a:not(.uk-button):before,a:not(.uk-navbar-item):before,a:not(.uk-navbar-nav li a):before {
+.uk-navbar-nav li a:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 1px;
+  height: 2px;
   bottom: 0;
   left: 0;
   background-color: #0f6ecd;
@@ -65,7 +65,7 @@ a:not(.uk-button):before,a:not(.uk-navbar-item):before,a:not(.uk-navbar-nav li a
   transition: all 0.3s ease-in-out 0s;
 }
 
-a:not(.uk-button):hover:before,a:not(.uk-navbar-item):hover:before,a:not(.uk-navbar-nav li a):hover:before {
+.uk-navbar-nav li a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
