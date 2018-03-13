@@ -122,6 +122,25 @@ code,.uk-input,.uk-button {
   transition: 0s;
 }
 
+@media (min-width:960px){
+    .sidebar+.main{
+        padding-left:240px
+    }
+}
+
+@media (min-width:1200px){
+    .sidebar+.main{
+        padding-left:40px
+    }
+}
+
+@media (min-width:1400px){
+    .sidebar{
+        width:300px !important;
+        padding:45px 45px 60px 45px
+    }
+}
+
 .main .uk-container{
     padding-left:15px;
     padding-right:15px
@@ -138,23 +157,6 @@ code,.uk-input,.uk-button {
     .main .uk-container{
         padding-left:40px;
         padding-right:40px
-    }
-}
-
-@media (min-width:960px){
-    .sidebar+.main{
-        padding-left:240px
-    }
-}
-@media (min-width:1200px)
-    .sidebar+.main{
-        padding-left:40px
-    }
-}
-@media (min-width:1400px){
-    .sidebar{
-        width:300px !important;
-        padding:45px 45px 60px 45px
     }
 }
 
