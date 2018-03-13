@@ -42,6 +42,9 @@ const distPath = './site'
 // set ejs delimiter
 ejs.delimiter = '?';
 
+// clear destination folder
+fse.emptyDirSync(distPath)
+
 // copy static folder
 fse.copy(`static`, `${distPath}`)
 
