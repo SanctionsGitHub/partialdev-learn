@@ -52,7 +52,7 @@ fse.copy(`static`, `${distPath}`)
 less.render(fse.readFile("styles.less"))
     .then(function(output) {
         fse.writeFile("site/css/main.css", output.css)
-}
+})
 
 // read pages
 globP('**/*.@(md|markdown|html|pug)', { cwd: `content` })
