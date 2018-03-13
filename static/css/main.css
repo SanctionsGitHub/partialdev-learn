@@ -127,17 +127,21 @@ code,.uk-input,.uk-button {
         padding-left:240px
     }
 }
-
 @media (min-width:1200px){
+    .sidebar{
+        left:calc(100% + 0px)
+    }
     .sidebar+.main{
         padding-left:40px
     }
 }
-
 @media (min-width:1400px){
     .sidebar{
         width:300px !important;
         padding:45px 45px 60px 45px
+    }
+    .sidebar+.main{
+        padding-left:40px
     }
 }
 
