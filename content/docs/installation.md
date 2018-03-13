@@ -35,3 +35,5 @@ If your computer is setup to serve pages, just upload the build to your public f
 $ npm run serve
 ````
 Your Luxaura.js site is available at http://localhost:5000.
+
+[[toc]]
