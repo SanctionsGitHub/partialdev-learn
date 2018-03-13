@@ -17,6 +17,7 @@ const markdownIt = require('markdown-it')({
   }
 });
 const markdownItAnchor = require("markdown-it-anchor")
+const markdownItTOC = require("markdown-it-table-of-contents")
 markdownIt.use(markdownItAnchor, {
   level: 1,
   // slugify: string => string,
@@ -25,6 +26,10 @@ markdownIt.use(markdownItAnchor, {
   permalinkClass: 'header-anchor',
   permalinkSymbol: '#',
   permalinkBefore: true
+})
+markdownIt.use(markdownItTOC, {
+    containerClass: "uk-nav uk-nav-default toc uk-visible@1",
+    listType: "ul"
 })
 const frontMatter = require('front-matter')
 const globP = promisify(require('glob'))
