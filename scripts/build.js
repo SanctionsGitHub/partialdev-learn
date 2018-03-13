@@ -3,6 +3,7 @@ const path = require('path')
 const ejs = require('ejs')
 const hljs = require('highlight.js')
 const { promisify } = require('util')
+const less = require("less")
 const pug = require('pug')
 const markdownIt = require('markdown-it')({
     html: true,
@@ -46,6 +47,14 @@ fse.emptyDirSync(distPath)
 
 // copy static folder
 fse.copy(`static`, `${distPath}`)
+
+// compile less
+less.render(fse.readFile("../styles.less"))
+    .then(function(output) {
+        fse.writeFile("../site/css/main.css", output.css")
+    },
+    function(error) {
+    });
 
 // read pages
 globP('**/*.@(md|markdown|html|pug)', { cwd: `content` })
