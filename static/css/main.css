@@ -195,6 +195,12 @@ code,.uk-input,.uk-button {
     max-width: 650px;
 }
 
+@media (max-width: 1199px) {
+  .toc {
+    display: none !important;
+  }
+}
+
 @media (min-width:960px) {
     .sidebar-toggle {
         display: none
