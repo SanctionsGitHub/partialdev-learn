@@ -11,11 +11,11 @@ html, .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6, .u
 pre,code {
     font-family: "roboto-mono", monospace !important
 }
-.toc > ul > li > a {
+.toc ul li a {
   color: #999;
 }
-.toc > ul > li > a:hover,
-.toc > ul > li > a:focus {
+.toc ul li a:hover,
+.toc ul li a:focus {
   color: #666;
 }
 
