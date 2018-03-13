@@ -20,7 +20,7 @@ pre,code {
 }
 
 .toc {
-    position:absolute;
+    position:fixed;
     top:0;
     left:calc(100% + 0px);
     width:200px
