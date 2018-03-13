@@ -192,12 +192,12 @@ code,.uk-input,.uk-button {
     }
 }
 
-.uk-container-small {
-    max-width: 650px;
-}
-
 .uk-container {
     max-width: 1380px;
+}
+
+.uk-container-small {
+    max-width: 650px;
 }
 
 @media (max-width: 1199px) {
