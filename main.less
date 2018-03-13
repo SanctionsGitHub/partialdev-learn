@@ -5,12 +5,15 @@
 @base-code-font-family: "roboto-mono", monospace;
 
 // scroll fix
-html{
+html {
     overflow-y:scroll
 }
-body{
+body {
     overflow:hidden
 }
+
+// table of contents
+
 .toc ul li a {
   color: #999;
 }
@@ -24,6 +27,10 @@ body{
     color: #333;
 }
 
+.toc ul li:first-child {
+    display: none;
+}
+
 .toc {
     position: absolute;
     top: 0;
@@ -31,10 +38,14 @@ body{
     width: 200px;
 }
 
+// documentation content
+// headers
+
 .main h1:first-child {
     padding-bottom: 10px;
     border-bottom: 1px solid #e5e5e5;
 }
+// anchors
 
 .main h1 .header-anchor:first-child {
     display: none;
@@ -60,6 +71,7 @@ height:80px; /* fixed header height*/
 margin:-80px 0 0; /* negative fixed header height */
 }
     
+// sidebar
 
 .sidebar {
     position: fixed;
@@ -71,6 +83,8 @@ margin:-80px 0 0; /* negative fixed header height */
     border-right: 1px #e5e5e5 solid;
     overflow: auto;
 }
+
+// navbar
 
 .uk-nav-header {
     padding: 8px 0;
@@ -120,6 +134,8 @@ code,.uk-input,.uk-button {
   transform: scaleX(1);
 }
 
+// buttons
+
 .uk-button {
   position: relative;
   overflow: hidden;
@@ -146,6 +162,8 @@ code,.uk-input,.uk-button {
   opacity: .2;
   transition: 0s;
 }
+
+// responsive documentation content
 
 @media (min-width:960px){
     .sidebar+.main{
@@ -192,6 +210,8 @@ code,.uk-input,.uk-button {
     }
 }
 
+// containers
+
 .uk-container {
     max-width: 1380px;
 }
@@ -200,6 +220,7 @@ code,.uk-input,.uk-button {
     max-width: 650px;
 }
 
+// mobile views
 @media (max-width: 1199px) {
   .toc {
     display: none !important;
@@ -220,6 +241,8 @@ code,.uk-input,.uk-button {
         display: none
     }
 }
+
+// search box
 
 .algolia-autocomplete .ds-dropdown-menu {
     top: 2.8rem !important;
