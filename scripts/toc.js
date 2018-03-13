@@ -55,11 +55,11 @@ module.exports = function(md, options) {
   }
 
   md.renderer.rules.toc_open = function(tokens, index) {
-    return '<div class="' + options.containerClass + '">';
+    return '<div class="' + options.containerClass + '"><div uk-sticky="offset: 160">';
   };
 
   md.renderer.rules.toc_close = function(tokens, index) {
-    return "</div>";
+    return "</div></div>";
   };
 
   md.renderer.rules.toc_body = function(tokens, index) {
