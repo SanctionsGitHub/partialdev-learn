@@ -128,9 +128,6 @@ code,.uk-input,.uk-button {
     }
 }
 @media (min-width:1200px){
-    .sidebar{
-        left:calc(100% + 0px)
-    }
     .sidebar+.main{
         padding-left:40px
     }
