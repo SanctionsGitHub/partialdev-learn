@@ -17,7 +17,7 @@ const markdownIt = require('markdown-it')({
   }
 });
 const markdownItAnchor = require("markdown-it-anchor")
-const markdownItTOC = require("markdown-it-table-of-contents")
+const markdownItTOC = require("./toc")
 markdownIt.use(markdownItAnchor, {
   level: 1,
   // slugify: string => string,
