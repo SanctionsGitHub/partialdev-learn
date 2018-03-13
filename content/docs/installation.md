@@ -36,8 +36,10 @@ $ npm run serve
 ````
 Your Luxaura.js site is available at http://localhost:5000.
 
-<div uk-scrollspy-nav="closest: li; scroll: true; offset: 100" uk-sticky>
+<div uk-scrollspy-nav="closest: li; scroll: true; offset: 100">
+<div uk-sticky="offset: 160">
 
 [[toc]]
 
+</div>
 </div>
