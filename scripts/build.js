@@ -49,12 +49,7 @@ fse.emptyDirSync(distPath)
 fse.copy(`static`, `${distPath}`)
 
 // compile less
-less.render(fse.readFile("styles.less"))
-    .then(function(output) {
-        fse.writeFile("site/css/main.css", output.css)
-    },
-    function(error) {
-    });
+less.render(fse.readFile("styles.less"), function(error, output) {fse.writeFile("site/css/main.css", output.css)})
 
 // read pages
 globP('**/*.@(md|markdown|html|pug)', { cwd: `content` })
