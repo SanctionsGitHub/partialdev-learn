@@ -1,0 +1,6 @@
+table > tr:not(:first-child),
+table > :not(:first-child) > tr,
+table > :first-child > tr:not(:first-child) {
+    border-top: @table-divider-border-width solid @table-divider-border;
+    .hook-table-divider;
+}
