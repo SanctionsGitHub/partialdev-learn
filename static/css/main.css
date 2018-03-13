@@ -165,21 +165,18 @@ code,.uk-input,.uk-button {
     max-width: 650px;
 }
 
-@media (min-width:640px) {
+@media (min-width:960px) {
     .sidebar-toggle {
         display: none
     }
 }
 
-@media (max-width:639px) {
+@media (max-width:959px) {
     .sidebar {
         display: none
     }
     .img-logo, .navbar-search {
         display: none
-    }
-    .uk-navbar-right {
-        align-items: center !important
     }
 }
 
