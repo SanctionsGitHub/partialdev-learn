@@ -34,6 +34,10 @@ pre,code {
     color: #999;
 }
 
+:target{
+    scroll-behavior: smooth
+}
+
 :target:before {
 content:"";
 display:block;
