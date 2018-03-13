@@ -23,22 +23,7 @@ body {
     
 // sidebar
 
-.sidebar {
-    position: fixed;
-    top: 80px;
-    bottom: 0;
-    box-sizing: border-box;
-    width: 240px !important;
-    padding: 40px 40px 60px 40px;
-    border-right: 1px #e5e5e5 solid;
-    overflow: auto;
-}
-
-.uk-nav-header {
-    padding: 8px 0;
-    color: #222;
-    font-size: 14px;
-}
+@import "sidebar.less";
 
 // navbar
 
@@ -48,7 +33,7 @@ body {
 
 @import "buttons.less";
 
-// responsive documentation content
+// media queries
 
 @media (min-width:960px){
     .sidebar+.main{
@@ -95,17 +80,7 @@ body {
     }
 }
 
-// containers
 
-.uk-container {
-    max-width: 1380px;
-}
-
-.uk-container-small {
-    max-width: 650px;
-}
-
-// mobile views
 @media (max-width: 1199px) {
   .toc {
     display: none !important;
@@ -125,6 +100,15 @@ body {
     .img-logo, .navbar-search {
         display: none
     }
+}
+
+// containers
+.uk-container {
+    max-width: 1380px;
+}
+
+.uk-container-small {
+    max-width: 650px;
 }
 
 // search box
