@@ -1,9 +1,3 @@
-html{
-    overflow-y:scroll
-}
-body{
-    overflow:hidden
-}
 html, .uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, h1, h2, h3, h4, h5, h6, .uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle, .uk-checkbox, .uk-input, .uk-radio, .uk-select, .uk-textarea {
     font-family: "europa", sans-serif !important
 }
@@ -189,6 +183,10 @@ code,.uk-input,.uk-button {
 
 .uk-container-small {
     max-width: 650px;
+}
+
+.uk-container {
+    max-width: 1380px;
 }
 
 @media (max-width: 1199px) {
