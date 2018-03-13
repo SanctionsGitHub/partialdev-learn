@@ -19,7 +19,8 @@ pre,code {
   color: #666;
 }
 .toc ul li.uk-active a,
-.toc ul li.uk-active a {
+.toc ul li.uk-active a:hover,
+.toc ul li.uk-active a:focus {
     color: #333;
 }
 
