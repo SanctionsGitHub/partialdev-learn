@@ -7,7 +7,7 @@
 	"author": "Tristian Kelly",
 	"main": "index.js",
 	"scripts": {
-		"build": "node ./scripts/build",
+		"build": "node ./scripts/build && gulp",
 		"serve": "serve ./site"
 	},
 	"devDependencies": {
