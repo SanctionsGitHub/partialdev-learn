@@ -18,6 +18,10 @@ pre,code {
 .toc ul li a:focus {
   color: #666;
 }
+.toc ul li.uk-active a,
+.toc ul li.uk-active a {
+    color: #333;
+}
 
 .toc {
     position: absolute;
