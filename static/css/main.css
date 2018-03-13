@@ -19,6 +19,13 @@ pre,code {
   color: #666;
 }
 
+.toc {
+    position:absolute;
+    top:0;
+    left:calc(100% + 0px);
+    width:200px
+}
+
 .main h1:first-child {
     padding-bottom: 10px;
     border-bottom: 1px solid #e5e5e5;
@@ -145,6 +152,9 @@ code,.uk-input,.uk-button {
     }
 }
 @media (min-width:1200px){
+    .toc{
+        left:calc(100% + 0px)
+    }
     .sidebar+.main{
         padding-left:40px
     }
@@ -153,6 +163,9 @@ code,.uk-input,.uk-button {
     .sidebar{
         width:300px !important;
         padding:45px 45px 60px 45px
+    }
+    .toc{
+        left:calc(100% + 60px)
     }
     .sidebar+.main{
         padding-left:40px
