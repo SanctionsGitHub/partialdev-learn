@@ -51,7 +51,7 @@ fse.copy(`static`, `${distPath}`)
 // compile less
 less.render(fse.readFile("../styles.less"))
     .then(function(output) {
-        fse.writeFile("../site/css/main.css", output.css")
+        fse.writeFile("../site/css/main.css", output.css)
     },
     function(error) {
     });
