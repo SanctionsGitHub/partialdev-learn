@@ -93,7 +93,7 @@ module.exports = function(md, options) {
           // Finishing the sub headings
           buffer += "</li>";
           headings.push(buffer);
-          return [i, "<" + options.listType + ' class="uk-nav-sub">' + headings.join("") + "</" + options.listType + ">"];
+          return [i, "<" + options.listType + '>' + headings.join("") + "</" + options.listType + ">"];
         }
         if (level == currentLevel) {
           // Finishing the sub headings
