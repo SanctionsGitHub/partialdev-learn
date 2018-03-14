@@ -2,7 +2,7 @@
 var string = require("string");
 var assign = require("lodash.assign");
 var defaults = {
-  includeLevel: [ 1, 2 ],
+  includeLevel: [ 2 ],
   containerClass: "table-of-contents",
   slugify: function(str) {
     return string(str).slugify().toString();
