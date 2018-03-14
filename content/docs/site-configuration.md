@@ -31,3 +31,5 @@ You can use whatever variables you would like to.
 ## Accessing variables
 
 See [Variables](/docs/variables) for more information on this.
+
+[[toc]]
