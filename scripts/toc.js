@@ -108,7 +108,7 @@ module.exports = function(md, options) {
     }
     buffer += buffer === "" ? "" : "</li>";
     headings.push(buffer);
-    return [i, "<" + options.listType + ' uk-scrollspy-nav="closest: li; scroll: true; offset: 100"><li class="uk-nav-header">Table of Contents</li>' + headings.join("") + "</" + options.listType + ">"];
+    return [i, "<" + options.listType + ' uk-scrollspy-nav="closest: li; scroll: true; offset: 100">' + headings.join("") + "</" + options.listType + ">"];
   }
 
   // Catch all the tokens for iteration later
