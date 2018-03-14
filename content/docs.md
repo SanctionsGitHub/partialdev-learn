@@ -41,3 +41,5 @@ site.config.js
 - `partials/`: Where things like your document head, navigation bar, etc. go.
 - `views/`: Where your site layouts go.
 - `site.config.js`: Your site configuration file.
+
+[[toc]]
