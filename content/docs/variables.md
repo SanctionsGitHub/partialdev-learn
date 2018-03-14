@@ -27,3 +27,5 @@ or
 ````pug
 #{variable.value}
 ````
+
+[[toc]]
