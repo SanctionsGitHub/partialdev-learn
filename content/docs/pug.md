@@ -23,3 +23,5 @@ If you'd like to include a partial, simply use the following script:
 ````pug
 include ../partials/mypage.html
 ````
+
+[[toc]]
