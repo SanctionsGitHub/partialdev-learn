@@ -8,7 +8,7 @@ layout: docs
 - [Installation](/docs/installation)
 - [Pages](/docs/pages)
 
-[![Build Status](https://img.shields.io/travis/luxaurajs/Luxaura.js/master.svg?style=flat-square)](https://travis-ci.org/luxaurajs/Luxaura.js) [![Releases](https://img.shields.io/github/release/luxaurajs/Luxaura.js/all.svg?style=flat-square)](https://github.com/luxaurajs/Luxaura.js/releases) ![devDependency Status](https://img.shields.io/david/dev/luxaurajs/Luxaura.js.svg?style=flat-square)
+![CLI Version](https://img.shields.io/npm/v/@luxaurajs/cli.svg?label=cli&style=flat-square) ![Dependency Status](https://img.shields.io/david/luxaurajs/cli.svg?style=flat-square)
 
 Luxaura.js is a simple static site generator.
 
@@ -17,6 +17,16 @@ Luxaura.js is a simple static site generator.
 HTML Pre-processors:
   - Pug
   - Markdown
+  
+CSS Pre-processors:
+    - LESS
+    - Stylus
+    - Sass
+    
+JavaScript Pre-processors:
+    - TypeScript
+    - LiveScript
+    - CoffeeScript
 
 Styling:
   - Syntax Highlighting (only in Markdown files)
@@ -42,4 +52,3 @@ site.config.js
 - `views/`: Where your site layouts go.
 - `site.config.js`: Your site configuration file.
 
-[[toc]]

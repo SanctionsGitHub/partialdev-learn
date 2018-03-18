@@ -5,35 +5,26 @@ layout: docs
 
 # Installation
 
-## Quick Start
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/TristianK3604/Luxaura.js)
+First, you need to install the CLI:
 
-This will automatically clone the repository to your GitHub account, run the build commands, and serve your site.
+```shell
+$ npm install -g @luxaurajs/cli
+```
 
-## Advanced Installation
+Afterwards, clone the base repository:
 
-Clone this repository locally
+```shell
+$ git clone https://github.com/luxaurajs/base
+```
 
-````shell
-$ cd path/to/repository
-````
-Change to the path that Luxaura.js is installed in.
-````shell
-$ npm install
-````
-Install all dependencies required to install Luxaura.js.
-````shell
-$ npm run build
-````
-Generate your Luxaura.js website.
+Build your site:
+```shell
+$ luxaura build
+```
 
-If your computer is setup to serve pages, just upload the build to your public folder and you're done!
+Serve your site:
+```shell
+$ luxaura serve
+```
 
-**If not:**
-
-````shell
-$ npm run serve
-````
-Your Luxaura.js site is available at http://localhost:5000.
-
-[[toc]]
+Your site will be available at <http://localhost:5000>.

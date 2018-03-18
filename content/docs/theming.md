@@ -97,4 +97,4 @@ Once you have finished your theme, you may want to show it off to others, and yo
 
 And don't forget the download link!
 
-[[toc]]
+

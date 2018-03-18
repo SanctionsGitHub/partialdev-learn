@@ -21,4 +21,4 @@ Common variables used in front matter are `title` and `description`. Of course, 
 
 See [Variables](/docs/variables) for more information.
 
-[[toc]]
+

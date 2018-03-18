@@ -24,4 +24,4 @@ If you'd like to include a partial, simply use the following script:
 include ../partials/mypage.html
 ````
 
-[[toc]]
+
