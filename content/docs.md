@@ -19,14 +19,14 @@ HTML Pre-processors:
   - Markdown
   
 CSS Pre-processors:
-    - LESS
-    - Stylus
-    - Sass
+  - LESS
+  - Stylus
+  - Sass
     
 JavaScript Pre-processors:
-    - TypeScript
-    - LiveScript
-    - CoffeeScript
+  - TypeScript
+  - LiveScript
+  - CoffeeScript
 
 Styling:
   - Syntax Highlighting (only in Markdown files)
