@@ -14,12 +14,14 @@ gulp.task('default', function () {
 
 var sitemap = require('gulp-sitemap');
 
-gulp.task('default', function () {
+gulp.task('sitemap', function () {
     gulp.src('site/**/*.html', {
             read: false
         })
         .pipe(sitemap({
-            siteUrl: 'https://learn.partialdev.com'
+            siteUrl: 'https://partialdev.com'
         }))
         .pipe(gulp.dest('./site'));
 });
+
+gulp.start.apply(gulp, ['sitemap']);
