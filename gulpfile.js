@@ -3,6 +3,18 @@ var path = require('path');
 var sitemap = require('gulp-sitemap');
 
 gulp.task('default', function () {
+
+     return gulp.src('./less/main.less')
+
+    .pipe(less())
+
+    .pipe(gulp.dest('./site/css'));
+
+});
+
+var sitemap = require('gulp-sitemap');
+
+gulp.task('default', function () {
     gulp.src('site/**/*.html', {
             read: false
         })
