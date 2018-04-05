@@ -2,7 +2,7 @@ var gulp = require("gulp");
 var path = require('path');
 var sitemap = require('gulp-sitemap');
 
-gulp.task('default', function () {
+gulp.task('sitemap', function () {
 
      return gulp.src('./less/main.less')
 
