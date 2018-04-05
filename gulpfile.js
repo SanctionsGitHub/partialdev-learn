@@ -19,7 +19,7 @@ gulp.task('sitemap', function () {
             read: false
         })
         .pipe(sitemap({
-            siteUrl: 'https://partialdev.com'
+            siteUrl: 'https://learn.partialdev.com'
         }))
         .pipe(gulp.dest('./site'));
 });
