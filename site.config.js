@@ -1,6 +1,6 @@
 module.exports = {
   site: {
-    title: 'PartialDev :: 007-Sanction',
+    title: 'Luxaura.js',
     description: 'A simple static site generator'
   }
 }
