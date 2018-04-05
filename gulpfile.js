@@ -1,8 +1,8 @@
-var gulp = require("gulp");
+var gulp = require('gulp');
 var less = require('gulp-less');
 var path = require('path');
 
-gulp.task('sitemap', function () {
+gulp.task('default', function () {
      return gulp.src('./less/main.less')
     .pipe(less())
     .pipe(gulp.dest('./css'));
