@@ -1,33 +1,21 @@
-<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
-<nav class="uk-navbar-container uk-margin navbar" uk-navbar>
-    <div class="uk-navbar-left">
-        <a class="uk-navbar-toggle sidebar-toggle" uk-navbar-toggle-icon href="#sidebar" uk-toggle></a>
-        <a class="uk-navbar-item uk-logo" href="/"><img src="/images/luxaura.png" class="img-logo" alt="Luxaura.js" style="max-height:30px"></a>
-    </div>
-    
-    <div class="uk-navbar-right">
-        <ul class="uk-navbar-nav">
-            <li>
-                <a href="/docs">
-                    Docs
-                </a>
-            </li>
-            <li>
-                <a href="https://community.luxaura.js.org">
-                    Community
-                </a>
-            </li>
-            <li>
-                <a href="https://github.com/luxaurajs/Luxaura.js">
-                    <i class="fab fa-github"></i>
-                </a>
-            </li>
-            <div class="uk-navbar-item">
-            <li>
-                <input id="docsearch" class="uk-input navbar-search" type="text" placeholder="Search Documentation">
-            </li>
-            </div>
-        </ul>
-    </div>
-</nav>
-</div>
+<div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+    <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+       </div>
+       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+           <h3>PartialDev</h3>
+       </div>
+       <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+       </div>
+       <div class="mdl-layout__tab-bar mdl-js-ripple-effect mdl-color--primary-dark">
+          <a href="#overview" class="mdl-layout__tab is-active">Overview</a>
+          <a href="#features" class="mdl-layout__tab">Features</a>
+          <a href="#features" class="mdl-layout__tab">Details</a>
+          <a href="#features" class="mdl-layout__tab">Technology</a>
+          <a href="#features" class="mdl-layout__tab">FAQ</a>
+          <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored mdl-shadow--4dp mdl-color--accent" id="add">
+          <i class="material-icons" role="presentation">add</i>
+          <span class="visuallyhidden">Add</span>
+          </button>
+       </div>
+    </header>
